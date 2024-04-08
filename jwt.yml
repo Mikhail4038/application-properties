@@ -1,0 +1,5 @@
+jwt: 
+    accessSecret: CPQvNKWPbXXjJ+U2iNEas2YkiDMaQxqX/BguYrdjp12+on+dM+CTA47NJQOxZeQH2y+LDJllj1cyD6z5djSbBg==
+    refreshSecret: ByOf47LKUj/+uScFPH6WQf0dhLiaWQzQ/z4tbrWloMTGQ5ll0HJXkyk542YCyVDR9XY2xQ+lrYGZyg8I9Q4/tQ==
+    validityPeriodAccessToken: 15
+    validityPeriodRefreshToken: 30
