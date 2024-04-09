@@ -3,5 +3,5 @@ spring:
         url: jdbc:mysql://localhost:3306/users?serverTimezone=UTC&createDatabaseIfNotExist=true 
 
   # set up initial data
-  sql.init.mode: always
-  jpa.defer-datasource-initialization: true
+    sql.init.mode: always
+    jpa.defer-datasource-initialization: true
