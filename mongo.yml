@@ -4,3 +4,8 @@ spring:
             port: 27017
             host: localhost
             database: shop
+    datasource:
+        url: jdbc:mysql://localhost:3306/auth?serverTimezone=UTC&createDatabaseIfNotExist=true
+        username: root
+        password: 500290
+        driver-class-name: com.mysql.cj.jdbc.Driver
