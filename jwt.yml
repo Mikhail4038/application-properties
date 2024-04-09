@@ -4,12 +4,3 @@ jwt:
   validityPeriodAccessToken: 15
   validityPeriodRefreshToken: 30
   
-spring:
-    datasource:
-        username: root
-        password: 500290
-        driver-class-name: com.mysql.cj.jdbc.Driver
-    jpa: 
-        hibernate.ddl-auto: update
-        properties.hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
-        show-sql: true
