@@ -1,0 +1,12 @@
+spring:
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: mihaila4038@gmail.com
+        password: vvkm wffp ccie opnl
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
