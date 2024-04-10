@@ -10,3 +10,6 @@ spring:
                     auth: true
                     starttls:
                         enable: true
+                        
+supportEmail: mihaila4038@gmail.com
+adminEmail: mihaila4038@yandex.ru
