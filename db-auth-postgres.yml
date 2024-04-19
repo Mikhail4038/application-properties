@@ -8,4 +8,10 @@ spring:
     hibernate:
       ddl-auto: update
     properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
-    show-sql: true  
+    show-sql: true
+  
+  data:
+    mongodb:
+      port: 27017
+      host: mongo
+      database: tockens  
