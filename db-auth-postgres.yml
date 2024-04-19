@@ -13,5 +13,5 @@ spring:
   data:
     mongodb:
       port: 27017
-      host: mongo
+      host: mongodb-auth
       database: tockens  
