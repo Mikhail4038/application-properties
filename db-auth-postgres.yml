@@ -17,4 +17,5 @@ spring:
       database: tockens
       username: root
       password: 500290
-      authentication-database: root 
+      authentication-database: root
+      uri: mongodb://root:500290@mongo-auth:27017/tockens?authSource=root  
