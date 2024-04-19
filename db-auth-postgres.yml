@@ -17,3 +17,4 @@ spring:
       database: tockens
       username: root
       password: 500290
+      authentication-database: admin 
