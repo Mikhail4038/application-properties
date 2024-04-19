@@ -14,4 +14,6 @@ spring:
     mongodb:
       port: 27017
       host: mongodb-auth
-      database: tockens  
+      database: tockens
+      username: root
+      password: 500290
