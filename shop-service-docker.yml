@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db-shop:5432/shops
+    username: shops

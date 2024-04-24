@@ -1,8 +1,8 @@
 spring: 
-    datasource:
-        url: jdbc:mysql://localhost:3306/auth?serverTimezone=UTC&createDatabaseIfNotExist=true
-    data:
-        mongodb:
-            port: 27017
-            host: localhost
-            database: tockens
+  datasource:
+    url: jdbc:mysql://localhost:3306/auth?serverTimezone=UTC&createDatabaseIfNotExist=true
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      database: tockens
