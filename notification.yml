@@ -1,6 +1,5 @@
 spring:
   
-  #kafka
   kafka:
     consumer:
       enable-auto-commit: true

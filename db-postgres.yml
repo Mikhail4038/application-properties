@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 500290
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect

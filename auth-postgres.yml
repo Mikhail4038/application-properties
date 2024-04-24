@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db-auth:5432/auth
+    username: auth 
+  
+  data:
+    mongodb:
+      port: 27017
+      host: mongodb-auth
+      database: tockens
+  
+  kafka:
+    producer:
+      bootstrap-servers: kafka:9092
+      key-serializer: org.apache.kafka.common.serialization.LongSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
