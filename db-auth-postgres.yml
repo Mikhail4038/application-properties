@@ -14,7 +14,7 @@ spring:
     mongodb:
       port: 27017
       host: mongodb-auth
-      #database: mikhail
-      username: mikhail
-      password: mikhail
-      authentication-database: mikhail
+      database: mikhail
+      #username: mikhail
+      #password: mikhail
+      #authentication-database: mikhail
