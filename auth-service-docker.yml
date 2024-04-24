@@ -1,7 +1,7 @@
 spring:
   datasource:
     url: jdbc:postgresql://db-auth:5432/auth
-    #username: auth 
+    username: auth 
   
   data:
     mongodb:
