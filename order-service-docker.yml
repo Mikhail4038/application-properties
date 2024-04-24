@@ -1,4 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://db-order:5432/orders
-    username: orders 
+    username: orders
+  
+  # set up initial data
+  sql.init.mode: always
+  jpa.defer-datasource-initialization: true    

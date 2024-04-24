@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db-product:5432/products
+    username: products 
+  
+  # set up initial data
+  sql.init.mode: always
+  jpa.defer-datasource-initialization: true
