@@ -2,3 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://db-shop:5432/shops
     username: shops
+  
+  # set up initial data
+  sql.init.mode: always
+  jpa.defer-datasource-initialization: true
