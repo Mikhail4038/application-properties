@@ -1,10 +1,7 @@
 spring:
   datasource:
-    #url: jdbc:postgresql://db-product:5432/products
-    url: jdbc:postgresql://localhost:5432/products
-    #username: products
-    username: postgres
-    password: 500290    
+    url: jdbc:postgresql://db-product:5432/products
+    username: products
   
   # set up initial data
   sql.init.mode: always

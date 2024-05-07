@@ -1,10 +1,7 @@
 spring:
   datasource:
-    #url: jdbc:postgresql://db-user:5432/users
-    #username: users 
-    url: jdbc:postgresql://localhost:5432/users
-    username: postgres
-    password: 500290    
+    url: jdbc:postgresql://db-user:5432/users
+    username: users   
   
   # set up initial data
   sql.init.mode: always
